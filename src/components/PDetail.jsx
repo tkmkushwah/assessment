@@ -31,10 +31,10 @@ const PDetail = () => {
 
   <div className="detail2" style={{width:'24%'}}>
         <div className="small-boxes">
-          <p style={{fontSize:'14px'}}>Gender <br /> <span> Femail</span></p>
+          <p style={{fontSize:'14px'}}>15 <br /> <span> Past</span></p>
         </div>
         <div className="small-boxe">
-          <p style={{fontSize:'14px'}}>Gender <br /> <span> Femail</span></p>
+          <p style={{fontSize:'14px'}}>02 <br /> <span> Upcomming</span></p>
         </div>
         <div className="small-boxe">
           <a href='http://www.google.com' style={{fontSize:'12px',textTransform:'uppercase',float:'right',lineHeight:'25px' ,color:'green'}}>View ecg <br />report <br />document  </a>
