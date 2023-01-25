@@ -1,0 +1,27 @@
+.detail-box{
+    height: 17vh;
+    width: 100%;
+    box-shadow:  0 1px rgba(0, 0, 0, 0.123);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-email{
+    display: flex;
+}
+.detail1, .detail2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.small-boxes{
+    padding-right: 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.377);
+}
+p{
+    font-weight: 100;
+}
+ span {
+     font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+ }

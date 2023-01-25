@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+}
+
+main {
+    width: 100%;
+    padding:30px;
+    padding-top: 5px;
+}
+
+.sidebar {
+    background: white;
+    box-shadow: 0 0 2px rgba(78, 54, 54, 0.521);
+    height: 95vh;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+       
+}
+
+.top_section {
+    display: flex;
+    background-color: greenyellow;
+    align-items: center;
+    font-size: 100px;
+    padding: 20px 15px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bars {
+    display: flex;
+    font-size: 30px;
+     margin: 0 auto;
+}       
+
+.text-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-icon .text{
+    text-transform: uppercase;
+    font-family: serif;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: smaller;
+}
+.text-icon .icon{
+    color: rgba(0, 0, 0, 0.753); 
+    font-size: 30px;
+}
+
+/* +++++++++++++++ search bar css+++++++++++++++ */
+.search-div{
+    width: 100%; 
+    box-shadow:  0 2px rgba(0, 0, 0, 0.048);
+}
+.searchbox{
+    padding-left:15px;
+    width: 70%;
+    border: none;
+    align-items: center;
+    height: 40px;
+}
+::-webkit-input-placeholder {
+    color: rgba(87, 80, 74, 0.795);
+    font-size: 16px;
+}
+.searchbox:focus {
+    outline: none;
+}
+label {
+    
+    display: inline;
+    width: 30px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+select{
+    margin-right: 10px;
+    border: none;
+}
+select:focus {
+    outline: none;
+}
